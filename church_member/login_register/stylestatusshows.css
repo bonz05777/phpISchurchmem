@@ -1,0 +1,308 @@
+
+*{
+
+    justify-content: center;
+    font-family:'calibri';
+}
+body{
+    background-image: url(a.jpg);
+}
+
+
+
+table{
+    border-collapse:collapse;
+    align-items: center;
+    margin: 0 auto;
+    width:45vw;
+   
+}
+
+table th{
+    background-color:rgb(114, 205, 221);
+    padding:5px;
+    font-size: 16px;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+
+   
+}
+table td{
+
+    background-color:rgb(250, 250, 250);
+    padding:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.opt{
+    background-color: darkgreen;
+    color:#ffff;
+    cursor: pointer;  
+    font-size: 16px;
+    text-decoration:none;   
+    padding:3px;
+}
+
+
+.opt1{
+    background-color:darkred;
+    color:#ffff;
+    cursor: pointer;  
+    font-size: 16px;
+    text-decoration:none;   
+    padding:3px;
+}
+
+
+   .member-popup {
+    position: absolute;
+    background-color: #555;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    z-index: 9999;
+}
+
+.member-id:hover {
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    align-items: center;
+    margin: 0 auto;
+    width: 45vw;
+
+}
+
+#memberNameLabel {
+    display: inline-block;
+    width: 45px;
+    font-size: 12px;
+    color: yellow;
+    margin-bottom: 10pt;
+    margin-left: 15pt;
+}
+
+#memberName {
+    font-size: 12px;
+    color: yellow;
+}
+
+#add-new-popup {
+    display: none;
+    position: absolute;
+    top: 60%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(1, 25, 83);
+    padding: 20px;
+    border: 1px solid #ccc;
+    height: 64vh;
+    width: 15vw;
+    border-radius: 8px;
+    z-index: 9999;
+}
+
+#add-new-popup h2 {
+    margin-top: 0;
+    font-size: 20px;
+    background-color: rgb(1, 25, 83);
+    color: rgb(254, 245, 166);
+    font-weight: bold;
+    display: flex;
+}
+
+#add-new-popup form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#add-new-popup label {
+    margin-top: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+#add-new-popup select {
+    width: 80%;
+    padding: 7px;
+    margin-top: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#add-new-popup input[type="text"] {
+    width: 75%;
+    padding: 7px;
+    margin-top: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+#add-new-popup .btn-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#add-new-popup button[type="submit"],
+#add-new-popup button[type="button"] {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ 
+
+
+
+    .title {
+        margin-top: 1.1vh;
+    }
+
+    .title h1 {
+        font-family: 'Franklin Gothic Medium';
+        font-size: 60px;
+        letter-spacing: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        margin-top: 1.1vh;
+        background-color: rgb(1, 25, 83);
+        color: rgb(254, 245, 166);
+
+    }
+
+    .options div {
+        display: inline-block;
+
+    }
+
+    .options a {
+        text-decoration: none;
+        color: #ffff;
+        width: 250px;
+        display: block;
+        padding: 15px 5px;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    .options a:hover {
+        background: rgb(237, 252, 102);
+        color: rgb(2, 15, 89);
+    }
+
+    .options .lefthomebtn {
+        text-decoration: none;
+        color: #ffff;
+        width: 250px;
+        display: block;
+        padding: 15px;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    .options .lefthomebtn:hover {
+        background: rgb(237, 252, 102);
+        color: rgb(2, 15, 89);
+    }
+
+    .options .addnew {
+        text-decoration: none;
+        color: #ffff;
+        width: 250px;
+        display: block;
+        background: black;
+        padding: 15px 5px;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        border: none;
+    }
+
+    .options .addnew:hover {
+        background: rgb(237, 252, 102);
+        color: rgb(2, 15, 89);
+    }
+
+    .options ul {
+        list-style: none;
+        background: #020004;
+        padding: 0;
+        margin-bottom: 20pt;
+        margin-top: -20pt;
+        text-align: right;
+    }
+
+
+    form .sub_btn {
+        padding: 10px 15px;
+        background-color: blue;
+        color: #ffff;
+        margin-top: 5pt;
+        margin-left: 27pt;
+        margin-right: 10pt;
+        outline: none;
+        border: 0;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 15px;
+        font-family: "Century Gothic";
+        border-radius: 10px;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+    form .sub_btn:hover {
+        color: rgb(83, 5, 5);
+        background-color: rgb(251, 300, 9);
+        text-decoration: none;
+    }
+
+    form .sub_btns {
+        padding: 10px 15px;
+        background-color: darkgreen;
+        color: #ffff;
+        margin-top: 5pt;
+        outline: none;
+        border: 0;
+        font-weight: bold;
+        cursor: pointer;
+        margin: 10x 10pt;
+        font-size: 15px;
+        font-family: "Century Gothic";
+        border-radius: 10px;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+    form .sub_btns:hover {
+        color: rgb(83, 5, 5);
+        background-color: rgb(251, 300, 9);
+        text-decoration: none;
+    }

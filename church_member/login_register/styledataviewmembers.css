@@ -1,0 +1,141 @@
+*{
+
+    justify-content: center;
+    font-family:'calibri';
+}
+body{
+    background-image: url(a.jpg);
+}
+.title{
+    width:100vw;
+    background-color:rgb(1, 25, 83);
+    color:rgb(254, 245, 166);
+}
+
+.title h1{
+    font-family:'Franklin Gothic Medium';
+    font-size: 60px;
+    letter-spacing: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+table th{
+    background-color:rgb(114, 205, 221);
+    padding:5px 3px;
+    font-size: 16px;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+
+   
+}
+table td{
+
+    background-color:rgb(250, 250, 250);
+    padding:8px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+}
+
+table{
+    border-collapse:collapse;
+    align-items: center;
+    margin: 0 auto;
+    width:90vw;
+   
+}
+
+
+.opt{
+    background-color: darkgreen;
+    color:#ffff;
+    cursor: pointer;  
+    font-size: 16px;
+    text-decoration:none;   
+    padding:5px;
+}
+
+
+.opt1{
+    background-color:darkred;
+    color:#ffff;
+    cursor: pointer;  
+    font-size: 16px;
+    text-decoration:none;   
+    padding:5px;
+}
+
+
+
+
+.options ul {
+    list-style: none;
+    background: #020004;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .options form {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .options form input[type="text"],
+  .options form button {
+    margin-right: 10px;
+  }
+  
+  .options a {
+    margin-right: 10px;
+  } 
+  
+
+  .options button.addnew {
+    text-decoration: none;
+    color: #fff;
+    width: 150px;
+    display: block;
+    padding:15px 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background:black;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .options button.addnew:hover {
+    background: rgb(237, 252, 102);
+    color: rgb(2, 15, 89);
+  }
+
+
+  .options button.lefthomebtn {
+    text-decoration: none;
+    color: #fff;
+    width: 150px;
+    display: block;
+    padding:15px 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background:black;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .options button.lefthomebtn:hover {
+    background: rgb(237, 252, 102);
+    color: rgb(2, 15, 89);
+  }

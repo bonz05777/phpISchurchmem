@@ -1,0 +1,42 @@
+.modal-header {
+    background-color: #191970;
+    color: #fff;
+}
+
+.modal-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.close {
+    color: #fff;
+}
+
+.modal-content {
+    width: 400px;
+}
+
+.modal-body {
+    font-size: 18px;
+}
+
+.modal-footer {
+    background-color: #191970;
+}
+
+#requestTransfer {
+    font-size: 18px;
+}
+
+#requestTransfer input {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#submitTransferBtn {
+    background-color: #191970;
+}
+
+#submitTransferBtn:hover {
+    background-color: #3c3c3c;
+}

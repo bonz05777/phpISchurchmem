@@ -1,0 +1,108 @@
+
+.options a {
+    text-decoration: none;
+    color: #ffff;
+    width: 250px;
+    display: block;
+    padding: 15px 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.options a:hover {
+    background: rgb(237, 252, 102);
+    color: rgb(2, 15, 89);
+}
+
+.options .lefthomebtn {
+    text-decoration: none;
+    color: #ffff;
+    width: 250px;
+    display: block;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.options .lefthomebtn:hover {
+    background: rgb(237, 252, 102);
+    color: rgb(2, 15, 89);
+}
+
+.options ul {
+    list-style: none;
+    background: #020004;
+    padding: 0;
+    margin-bottom: 20pt;
+    margin-top: -20pt;
+    text-align: right;
+}
+
+.searches {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.table-responsive {
+    max-width: 85%;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+.table {
+    margin: 0 auto;
+}
+
+.thead-inverse {
+    background-color: white;
+    color: black;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #fff;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #f2f2f2; 
+}
+.edit-margin {
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+
+.modal-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20vw;
+}
+
+.opt {
+    background-color: darkgreen;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 8px;
+    text-decoration: none;
+    padding: 5px;
+    margin-right:3pt;
+    border:none;
+}
+
+
+.opt1 {
+    background-color: darkred;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 8px;
+    text-decoration: none;
+    padding: 5px;
+    border:none;
+}
