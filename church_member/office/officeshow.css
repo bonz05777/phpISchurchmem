@@ -1,0 +1,213 @@
+
+*{
+
+    justify-content: center;
+    font-family:'calibri';
+}
+body{
+    background-image: url(/church_member/login_register/a.jpg);
+}
+.title{
+    width:100vw;
+    background-color:rgb(1, 25, 83);
+    color:rgb(254, 245, 166);
+}
+
+.title h1{
+    font-family:'Franklin Gothic Medium';
+    font-size: 60px;
+    letter-spacing: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+table th{
+    background-color:rgb(114, 205, 221);
+    padding:5px 3px;
+    font-size: 16px;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+
+   
+}
+table td{
+
+    background-color:rgb(250, 250, 250);
+    padding:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+}
+
+table{
+    border-collapse:collapse;
+    align-items: center;
+    margin: 0 auto;
+    width:50vw;
+   
+}
+
+.contents .data-insert{
+  
+    padding:12px 15px;
+    outline: none;
+    border: 1px;
+    font-size: 12pt;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 10pt;
+    margin-left: 15pt;
+ 
+
+}
+
+.contents .labelmin{
+  
+    font-size: 15pt;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    color:rgb(254, 245, 166);
+    font-weight: bold;
+    display: flex;
+    margin-top: 10pt;
+    margin-bottom: none;
+}
+
+
+.opt{
+    background-color: darkgreen;
+    color:#ffff;
+    cursor: pointer;  
+    font-size: 16px;
+    text-decoration:none;   
+    padding:3px;
+}
+
+
+.opt1{
+    background-color:darkred;
+    color:#ffff;
+    cursor: pointer;  
+    font-size: 16px;
+    text-decoration:none;   
+    padding:3px;
+}
+.opt2{
+    background-color:rgb(1, 52, 148);
+    color:#ffff;
+    cursor: pointer;  
+    font-size: 16px;
+    text-decoration:none;   
+    padding:3px;
+}
+.options ul{
+    list-style: none;
+    background: #020004;
+    padding:0;
+    margin-bottom: 20pt;
+    text-align: right;
+   }
+   
+  
+.options .addnew{
+    text-decoration: none;
+    color: #ffff;
+    width: 250px;
+    display: block;
+    padding:15px 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #020004;
+    border: none;
+}
+.options .addnew:hover{
+    background:rgb(237, 252, 102);
+    color:rgb(2, 15, 89);
+   }
+
+
+   .options div{
+      display: inline-block;
+  }
+  
+  .options a{
+     text-decoration: none;
+     color: #ffff;
+     width: 250px;
+     display: block;
+     padding:15px 5px;
+     text-transform: uppercase;
+     font-size: 15px;
+     font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+  }
+  
+  .options a:hover{
+    background:rgb(237, 252, 102);
+    color:rgb(2, 15, 89);
+   }
+ 
+ 
+ form .sub_btn{
+    padding: 10px 15px;
+    background-color: blue;
+    color:#ffff;
+    margin-top:15pt;
+    margin-left: 27pt;
+    margin-right: 10pt;
+    outline:none;
+    border:0;
+    font-weight: bold;
+    cursor: pointer;  
+    font-size: 15px;
+    font-family: "Century Gothic";
+    border-radius: 10px;
+    text-decoration:none;   
+    align-items: center;
+    justify-content: center;
+}
+
+ form .sub_btn:hover{
+    color: rgb(83, 5, 5);
+    background-color: rgb(251, 300, 9);
+    text-decoration:none;   
+}   
+form .sub_btns{
+    padding: 10px 15px;
+    background-color: darkgreen;
+    color:#ffff;
+    margin-top:15pt;
+    outline:none;
+    border:0;
+    font-weight: bold;
+    cursor: pointer;  
+    margin:10x 10pt;
+    font-size: 15px;
+    font-family: "Century Gothic";
+    border-radius: 10px;
+    text-decoration:none;   
+    align-items: center;
+    justify-content: center;
+}
+
+ form .sub_btns:hover{
+    color: rgb(83, 5, 5);
+    background-color: rgb(251, 300, 9);
+    text-decoration:none;   
+}   
+form .inputmin{
+    font-size: 50pt;
+}
+
+
+
